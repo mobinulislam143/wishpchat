@@ -241,13 +241,6 @@
                     display: flex;
                     gap: 10px;
                     align-items: center;
-
-                    span {
-                        @include mobile {
-                            display: none;
-                        }
-                    }
-
                     img {
                         background-color: #ddddf7;
                         height: 50px;
