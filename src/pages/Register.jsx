@@ -65,7 +65,7 @@ const Register = () => {
         <h2 className='logo'>WhispChat</h2>
         <h3 className='title'>Register</h3>
         <form onSubmit={handleSubmit}>
-          <input required type="text" placeholder="display name" />
+          <input required type="text" placeholder="Your name" />
           <input required type="email" placeholder="email" />
           <input required type="password" placeholder="password" />
           <input required style={{ display: "none" }} type="file" id="file" />
